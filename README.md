@@ -11,7 +11,7 @@ No scroll view
 <br />
 Scroll view
 <br />
-<img src="scroll.png" width="250" height="400">
+<img src="scrollview.png" width="250" height="400">
 <br />
 <b>Task 3</b>
 <br />
