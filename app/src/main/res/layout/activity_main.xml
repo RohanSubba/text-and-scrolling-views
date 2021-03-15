@@ -6,14 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/article"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/article_subheading"
-        android:lineSpacingExtra="@dimen/line_spacing"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article_text" />
+
 
     <TextView
         android:id="@+id/article_heading"
@@ -34,5 +27,23 @@
         android:padding="@dimen/padding_regular"
         android:text="@string/article_subtitle"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_subheading">
+
+
+
+    <TextView
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/line_spacing"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/article_text"
+        android:autoLink="web"/>
+
+    </ScrollView>
 
 </RelativeLayout>
